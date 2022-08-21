@@ -23,3 +23,6 @@ If you want other db name - you can create a new one using SQL: CREATE DATABASE 
 This database has the same API as MSSQL DB, so it works with pyodbc (not supported on M1) and pymssql libraries.
 
 If you are using it on M1 machine, consider using pymssql library for connection to Azure SQL DB
+
+
+Login to MSSQL from commandline: `mssql -u <USERNAME> -p <PASSWORD>`
